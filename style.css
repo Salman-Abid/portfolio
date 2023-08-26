@@ -90,8 +90,7 @@ nav ul li a{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
-
+    line-height: 30px; 
     margin-bottom: 30px;
 }
 .cv-btn{
@@ -158,9 +157,14 @@ main{
     font-weight: 400;
     line-height: 30px; /* 166.667% */
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 70px;
+    
 }
+.ab-text{
+    padding: 0 !important;
+    margin-bottom: 30px;
 
+}
 .about-info-section{
     display: flex;
     justify-content: space-between;
@@ -187,13 +191,14 @@ main{
 
 /* what-i-do section */
 .what-i-do{
-    padding: 85px 157px;
+    padding: 85px;
 
 }
 
 .skill-section{
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .skill{
@@ -229,4 +234,158 @@ main{
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
+}
+
+/* resume section */
+.resume{
+    padding: 85px;
+    text-align: center;
+}
+.resume-section{
+    display: flex;
+    justify-content: space-between;
+}
+.education{
+    margin-right: 35.5px;
+    margin-top: 113px;
+}
+.education h3{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Open Sans;
+    
+}
+
+.resume-info{
+    border-bottom: 1px solid #D1D1D1;
+    padding: 30px 0;
+    text-align: left;
+}
+.resume-info:last-child{
+    border-bottom: none;
+}
+.resume-info h4{
+    color: var(--dark-02, #474747);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Open Sans;
+}
+.resume-info h5{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Open Sans;
+}
+.resume-info p{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Open Sans;
+    padding-top: 20px;
+}
+.experience{
+    margin-left: 35.5px;
+    margin-top: 113px;
+}
+.experience h3{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: Open Sans;
+    
+}
+
+/* footer section */
+
+footer{
+    background: #FFF8F3;
+    padding: 130px 0;
+}
+.contac-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.connect{
+    width: 50%;
+    margin-right: 58.5px;
+}
+.connect h3{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 30px;
+    
+}
+.connect p{
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    font-family: Open Sans;
+}
+.connect div{
+    padding: 40px 0;
+}
+.connect div a{ 
+    margin-right: 24px;
+}
+.connect div a img{}
+
+.message{
+    width: 50%;
+    margin-left: 58.5px;
+}
+.message h3{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+input[type="text"], [type="email"]{
+    border-radius: 5px;
+    border: none;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 0 18px 33px;
+}
+textarea{
+    width: 100% !important;
+    height: 180px !important;
+    border: 0;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-bottom: 24px;
+    padding: 18px 0 18px 33px;
+}
+
+textarea:focus{
+    border:1px solid #FD6E0A !important;
 }
